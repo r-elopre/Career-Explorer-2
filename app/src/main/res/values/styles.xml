@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom button style that applies the neon effect -->
+    <style name="NeonButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/neon_effect</item>
+        <!-- You can add more style properties here if needed -->
+    </style>
+</resources>
