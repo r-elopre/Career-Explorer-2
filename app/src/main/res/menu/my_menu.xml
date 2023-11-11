@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_app_goal"
+        android:title="App Goal"/>
+
+    <item
+        android:id="@+id/menu_subscription_offer"
+        android:title="Subscription Offer"/>
+
+    <item
+        android:id="@+id/menu_report_technical_problem"
+        android:title="Report Technical Problem"/>
+
+    <item
+        android:id="@+id/menu_suggest_hero"
+        android:title="Suggest Hero"/>
+
+    <item
+        android:id="@+id/menu_terms_and_conditions"
+        android:title="Terms and Conditions"/>
+
+    <item
+        android:id="@+id/menu_rate_app"
+        android:title="Rate Our App in Playstore"/>
+
+</menu>

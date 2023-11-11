@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Career Explorer</string>
+    <string name="app_description">
+        Embark on a journey towards your ideal future with our innovative app 🚀. Designed to illuminate the path ahead, it offers personalized guidance in selecting the college course and career that align perfectly with your passions, skills, and aspirations 🎯. Our unique algorithm delves into your interests and talents, providing you with a tailored roadmap to a future that resonates with your deepest ambitions.\n\nUnlock the door to your potential and step confidently into a world of opportunities 🌟. By subscribing to our Pro version, you gain access to in-depth insights, exclusive resources, and a comprehensive support system that empowers you to make informed decisions about your education and career path 💡. With our app as your compass, the journey to your dream career starts here.
+    </string>
+
+    <string name="subscription_offers">
+        "Step into the realm of greatness with our Pro subscription 🌟, where the legacies of Nikola Tesla, Albert Einstein, and Isaac Newton converge to illuminate your path 🔍. Our advanced Pro features integrate the pioneering spirits and intellectual prowess of these legends 🧠, offering you a unique, AI-powered career guidance experience. With this subscription, you'll gain access to exclusive, detailed analyses of how the combined qualities of these geniuses can shape your academic and professional journey 🚀.
+
+Imagine receiving personalized course recommendations and career advice inspired by the collective wisdom of history's greatest minds, augmented with modern AI insights 💡. Pro users also enjoy access to specialized modules that explore the intersections of these iconic personalities' fields, providing a multidimensional view of potential career paths 🌐. This isn't just an app; it's a portal to a future where you walk alongside giants, tailored to your aspirations and potential 🛤️."
+    </string>
+
 </resources>
