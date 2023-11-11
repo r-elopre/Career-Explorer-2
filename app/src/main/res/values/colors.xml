@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#d00000</color>
     <color name="trans_parent">#00000000</color>
+    <color name="gray1">#495057</color>
+    <color name="gray2">#343a40</color>
+
+
 </resources>

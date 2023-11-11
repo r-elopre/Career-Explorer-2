@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.careerexplorer.databinding.ActivityMainBinding
@@ -21,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
 
         // Change the title after setting the Toolbar
-        supportActionBar?.title = "Menu Bar"
+        supportActionBar?.title = "Menu bar"
 
         // Now you can use 'binding' to access your views
         // Example: binding.textView.text = "Hello Data Binding!"
@@ -69,7 +68,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    private fun showToast(message: String) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
-    }
 }
