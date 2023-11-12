@@ -10,4 +10,14 @@
 Imagine receiving personalized course recommendations and career advice inspired by the collective wisdom of history's greatest minds, augmented with modern AI insights 💡. Pro users also enjoy access to specialized modules that explore the intersections of these iconic personalities' fields, providing a multidimensional view of potential career paths 🌐. This isn't just an app; it's a portal to a future where you walk alongside giants, tailored to your aspirations and potential 🛤️."
     </string>
 
+    <string name="terms_and_conditions">
+<![CDATA[
+Terms and Conditions for [Your App Name]\n
+Last Updated: [Date]\n\n
+
+By using our App, you agree to these Terms and Conditions. Your privacy is important to us; personal information is used in accordance with our Privacy Policy. A user account is required for certain features, including Pro version purchases, which involve handling sensitive information securely. You are responsible for your account and its confidentiality. Usage of our app should comply with all relevant laws and not involve misuse or disruption of service. We hold all intellectual property rights for the app. These terms may be updated, and continued use of the app signifies acceptance of new terms. The app is provided as is, without warranty, and our liability is limited as allowed by law. These terms are governed by [Your Country/State] law. For queries, contact us at [Your Contact Information].
+]]>
+</string>
+
+
 </resources>

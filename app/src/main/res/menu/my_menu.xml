@@ -11,11 +11,11 @@
 
     <item
         android:id="@+id/menu_report_technical_problem"
-        android:title="Report Technical Problem"/>
+        android:title="Report Problem (Gmail)"/>
 
     <item
         android:id="@+id/menu_suggest_hero"
-        android:title="Suggest Hero"/>
+        android:title="Suggest Hero (Gmail)"/>
 
     <item
         android:id="@+id/menu_terms_and_conditions"
