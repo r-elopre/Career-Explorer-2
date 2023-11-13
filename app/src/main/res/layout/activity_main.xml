@@ -4,6 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
+        <variable
+            name="mainActivity"
+            type="com.example.careerexplorer.MainActivity" />
+
         <!-- Define variables here if needed -->
     </data>
 
@@ -30,6 +35,7 @@
             android:layout_width="252dp"
             android:layout_height="94dp"
             android:layout_marginBottom="192dp"
+            android:onClick="@{() -> mainActivity.onCombineHeroClicked()}"
             android:text="COMBINE HERO"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -40,17 +46,19 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button5"
             android:layout_width="146dp"
             android:layout_height="53dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/neon_effect"
+            android:onClick="@{() -> mainActivity.onButtonClicked()}"
             android:text="SUBSCRIBE"
             app:backgroundTint="@null"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button" />
+
 
         <TextView
             android:id="@+id/tiltedTextView"
@@ -74,10 +82,10 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="80dp"
-            android:layout_marginBottom="336dp"
-            android:textColor="@color/white"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="352dp"
             android:background="@drawable/my_gradiant"
+            android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"

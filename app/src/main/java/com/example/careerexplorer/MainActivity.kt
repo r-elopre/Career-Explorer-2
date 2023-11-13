@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var runnable: Runnable
     private var index = 0
     private val text = "Welcome to career explorer\n The best career explorer in the world!\n Please CLICK Combine Hero to proceed." // Replace with your desired text
-    private val delay: Long = 50 // Delay in milliseconds between characters
+    private val delay: Long = 20 // Delay in milliseconds between characters
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +26,22 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         setSupportActionBar(binding.toolbar)
         supportActionBar?.title = "Menu bar"
+
+        // Set the activity instance to the binding object
+        binding.mainActivity = this
     }
+
+
+    fun onButtonClicked() {
+        val intent = Intent(this, menuSubscription::class.java)
+        startActivity(intent)
+    }
+
+    fun onCombineHeroClicked() {
+        val intent = Intent(this, insideCombineHero::class.java)
+        startActivity(intent)
+    }
+
 
     override fun onResume() {
         super.onResume()

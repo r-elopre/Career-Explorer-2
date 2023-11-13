@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CareerExplorer"
         tools:targetApi="31">
         <activity
+            android:name=".insideCombineHero"
+            android:exported="false" />
+        <activity
             android:name=".menuRate"
             android:exported="false" />
         <activity
